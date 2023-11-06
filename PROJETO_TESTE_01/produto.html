@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+    <link rel="stylesheet" href="style/style.css">
+    <link rel="shortcut icon" href="imagem/tarot.ico" type="image/x-icon">
+    <title>Artes Letrux</title>
+    <script src="js/main.js"></script>
+</head>
+
+<script src="js/main.js"></script>
+
+<body>
+    <header>
+        <div class="wrapper">
+            <a href="index.html" class="logotype">
+                <img src="imagem/tarot.png" alt="três cartas de tarot">
+                <h1>ARTRUX</h1>
+            </a>
+            <div class="space"></div>
+            <nav>
+                <ul>
+                    <li><a href="index.html"><b>HOME</b></a></li>
+                    <li><a href="letrux.html"><b>LETRUX</b></a></li>
+                    <li><a href="contato.html"><b>CONTATO</b></a></li>
+                    <li><a href="produto.html"><b>PRODUTOS</b></a></li>
+                    <li><a href="cadastro.html"><button>CADASTRE-SE</button></a></li>
+
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main class="wrapper">
+        <div class="side-left">
+            <div class="card_side">
+                <a href="https://www.instagram.com/_artrux/" class="select"><img src="imagem/arte_sideleft.jpg" alt="arte abstrata da letrux"></a>
+                <h3>QUEM É ARTRUX</h3>
+                <p>ARTrux | mundinho letrux br
+                    Arte
+                    ilustrando letícia letrux & cia desde 1982.
+                    não utilize minha arte sem autorização.
+                </p>
+            </div>
+        </div>
+
+        <div id="content">
+            <h1>Produto</h1>
+            <label for="idade">Idade:</label>
+            <input type="number" id="idade" name="idade">
+            <input type="button" id="botao" onclick="myFunction()" value="Click here">
+            <p id="resultado"></p>
+
+            <div class="content_produtos">
+                <p>Chose the name of the album:</p><br>
+                <input type="radio" id="climao" name="letrux" value="emNoiteDeClimao">
+                <label for="climao">Em Noite de Climao</label>
+
+                <input type="radio" id="prantos" name="letrux" value="aosPrantos">
+                <label for="prantos">Letrux Aos Prantos</label>
+
+                <input type="radio" id="mGirafa" name="letrux" value="mulherGirafa">
+                <label for="mGirafa">Letrux Como Mulher Girafa</label>
+        
+                <input type="button" id="add" onclick="chooseImg()" value="Click here">
+                <div id="imgEscolhida"></div>
+            </div>
+
+        </div>
+        
+    
+    </main>
+    
+    <footer>
+        <span>kleiton@iclound.com</span>
+    </footer>
+
+   
+</body>
+</html>

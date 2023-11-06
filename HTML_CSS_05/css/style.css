@@ -1,0 +1,174 @@
+html, body {
+    margin: 0;
+    font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen,Ubuntu,Cantarell,"Fira Sans","Droid Sans","Helvetica Neue",sans-serif;
+}
+
+a {
+    text-decoration: none;
+}
+
+header{
+    background: #000;
+    color: #fff;
+}
+
+header div{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    height: 45px;
+}
+
+header a.logotype{
+    display: flex;
+    align-items: center;
+    color: #fff;
+    gap: 10px;
+}
+
+header h1{
+    margin: 0;
+    font-size: 20px;
+}
+
+header img {
+    width: 30px;
+    height: 30px;
+}
+
+header nav{
+    margin: 0 0 0 auto;
+}
+
+header nav ul{
+    display: flex;
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+    gap: 20px;
+}
+
+header nav ul li a{
+    color: #fff;
+    padding: 0 0 8px 0;
+}
+
+#exec1 {
+    background: #CCC;
+    width: 300px;
+    height: 100px;
+    display: flex;
+    gap: 10px;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.bloco {
+    background: #000;
+    width: 60px;
+    height: 60px;   
+}
+
+.rightauto{
+    margin-right: auto;
+}
+
+.wrapper {
+    width: 1000px;
+    margin: 0 auto;
+}
+
+main {
+    display: flex;
+    gap: 20px;
+}
+
+main.wrapper{
+    margin: 20px auto;
+}
+
+
+#sidebar-right, #sidebar-left {
+    width: 200px;
+    background: white
+    height: 500px;
+}
+
+#content {
+    width: 520px;
+    background: #f1f1f1;
+    height: 500px;
+    padding: 20px;
+}
+
+footer{
+    background: #CCC;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.active{
+    border-bottom: 4px solid #da3c07;
+}
+
+.card {
+    border: 2px groove rgb(87, 83, 83);
+    border-radius: 10px;
+    height: 250px;
+    margin-bottom: 20px;
+}
+
+div.card:hover {
+    background-color: rgb(135, 170, 170);
+}
+
+.card img {
+    border-radius: 10px 10px 0 0;
+}
+
+.card div {
+    padding: 0 20px;
+}
+
+.card h3 {
+    margin-bottom: 0px;
+}
+
+.card div p{
+    margin: 0;
+}
+
+.card.content {
+    display: flex;
+    align-items:start;
+    height: 150px;
+    border-radius: 10px 10px 10px 10px;
+}
+
+.card.content img {
+    border-radius: 10px 0 0 10px;
+}
+
+.card.content span{
+    background: rgb(172, 165, 165);
+    padding: 5px 5px;
+    border-radius: 10px;
+    display: inline-block;
+}
+
+.card.content p {
+    margin-bottom: 20px;
+}
+
+table {
+    border-collapse:collapse;
+    
+}
+
+tr, th, td{
+    border: 1px groove black;
+    padding: 0 20px;
+}

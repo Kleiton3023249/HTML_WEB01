@@ -1,0 +1,277 @@
+html, body {
+    margin:0;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.wrapper {
+    width: 1000px;
+    margin: 0 auto;
+}
+
+header{
+    background-color: #F79F05;
+    color: black;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 100%;
+}
+
+div.wrapper{
+    display: flex;
+    flex-direction:row;
+    align-items: center;
+}
+
+div.space{
+    width:662px;
+}
+
+a.logotype {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    text-decoration: none;
+    gap: 10px;
+}
+
+a.logotype img{
+    margin:0;
+    height: 70px;
+}
+
+a.logotype h1{
+    font-size: 20px;
+    text-shadow: 0.1em 0.1em black;
+    color: #8F05ED;
+}
+
+ul{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap:10px;
+    text-shadow: 0.1em 0.1em black;
+    list-style-type: none;
+}
+
+ul li:hover{
+    text-shadow:0.1em 0.1em #28EDEC;
+}
+
+li a{
+    text-decoration: none;
+    color: #a63dec;
+}
+
+li button {
+    text-decoration: none;
+    background-color: #28EDEC;
+    border-radius: 15px 15px 15px 15px;
+    cursor: pointer;
+    padding:  5px;
+}
+
+li button:hover{
+    background-color: #a63dec;
+}
+
+main.wrapper {
+    margin:20px auto;
+    display: flex;
+    flex-direction: row;
+    gap:20px;
+}
+
+.side-left, .side-right{
+    background-color: #ED6111;
+    /*height: 540px;*/
+    height: auto;
+    width: 197px;
+    padding: 30px 10px;
+}
+
+main div#content{
+    background-color: #D3ED28;
+    height: 600px;
+    width: 784px;
+    padding: 20px 20px;
+}
+
+div.card_side {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 500px;
+    width: 197px;
+}
+
+div.card_side img{
+    height: 120px;
+    width: 120px;
+    margin-bottom: 20px;
+    border-radius: 150px 150px 150px 150px;
+    border: 10px outset #28EDEC;
+}
+
+div.card_side h3 {
+    margin:10px auto;
+    background-color: #D3ED28;
+    color: #a63dec;
+    text-shadow: 0.1em 0.1em black;
+    width: 170px;
+    text-align: center
+}
+
+div.card_side p{
+    text-align: center;
+    margin: 0px auto;
+}
+
+div#content h1{
+    margin: 30px 20px;
+    padding: 5px 20px;
+    font-size: 25px;
+    height: 30px;
+    width: 700px;
+    text-align: center;
+    text-shadow: 0.1em 0.1em black;
+    color:#8F05ED;
+    background-color: #ED6111;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    border:5px outset #9C36EF;
+    border-radius: 15px;
+    height: 213px;
+    width: 213px;
+}
+
+.card img{
+    border-radius: 10px 10px 10px 10px;
+    height: 213px;
+    width: 213px;
+}
+
+.content01 {
+    display: flex;
+    flex-direction: column;
+    gap:10px;
+}
+
+.content02 {
+    padding: 0 50px;
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+
+a.select:hover {
+    transform: scale(1.1);
+}
+
+footer{
+    background-color:#28EDEC;
+    height:60px;
+    width:auto;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+footer span{
+    text-align: center;
+    margin: 0 auto;
+}
+
+#content_letrux{
+    background-color: #D3ED28;
+    height: 560;
+    width: 486px;
+    padding: 20px 20px;
+}
+
+#content_letrux h1 {
+    text-align: center;
+    text-shadow: 0.1em 0.1em black;
+    color:#8F05ED;
+    background-color: #ED6111;
+}
+
+#content_letrux p{
+    text-align: justify;
+    text-indent: 20px;
+}
+
+.content01_letrux {
+    display: flex ;
+    flex-direction: column;
+    align-items: center;
+    width: 486px;
+}
+
+.side-right h3{
+    text-align: center;
+    margin: 20px auto;
+    background-color: #D3ED28;
+    color: #a63dec;
+    text-shadow: 0.1em 0.1em black;
+}
+
+.side-right .card_side{
+    overflow:auto; 
+}
+
+table{
+  border-collapse: separate;
+  text-align: center;
+  margin: 0 auto;
+}
+
+th, td{
+    padding: 5px 10px;
+}
+
+th, td{
+    background-color: #9C36EF;
+}
+
+fieldset label{
+    margin-left: auto;
+}
+
+@media only screen and (max-width: 400px) {
+    header{
+        display: none;
+    }
+}
+
+@media only screen and (min-width: 400px) and (max-widht: 700px) {
+    header{
+        display: none;
+    }
+}
+
+   
+.card_produto {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    box-sizing: border-box;
+    border:5px outset #9C36EF;
+    background-color: #9C36EF;
+    border-radius: 15px;
+    height: 213px;
+    width: 500px;
+}
+
+/* para a pag de produtos */
+#imgEscolhida {
+    border:5px outset #9C36EF;
+    border-radius: 15px;
+    height: 213px;
+    width: 213px;
+}
